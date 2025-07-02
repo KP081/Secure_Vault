@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 import "node_modules/@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
@@ -19,5 +19,5 @@ contract SecureVault is ReentrancyGuard {
         (bool success , ) = msg.sender.call{value : amount}("");
         require(success , "Transfer failed");
     }
-    
+
 }
