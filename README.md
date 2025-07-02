@@ -46,24 +46,6 @@ A secure Ethereum smart contract that allows users to deposit and withdraw ETH �
 
 ---
 
-## 📁 Project Structure
-
-SecureVault/
-│
-├── contracts/
-│   └── SecureVault.sol        # Main contract
-│
-├── test/
-│   └── SecureVault.test.js    # Test cases
-│
-├── slither-report/            # Optional: output reports from Slither
-│
-├── hardhat.config.js
-├── package.json
-└── README.md
-
----
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
